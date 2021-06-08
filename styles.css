@@ -13,6 +13,7 @@ h1, h2 {
   color: #FFF;
   font-family: Varela;
 }
+
 img {
   width: 100vw;
   height: 80vw;
@@ -29,9 +30,17 @@ img {
   margin: 0vw;
   padding: 0vw;
   overflow: hidden;
+  background: url(Pics/RoboticsTeam-1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  background-opacity: 50%;
 }
 #navbar a {
-  float: left;
+  float: right;
   display: inline;
   color: #FFF;
   text-align: center;
@@ -59,12 +68,10 @@ img {
   height: 12vw;
 }
 #navbar a.active {
-  background-color: #662d91;
   color: #FFF;
 }
 #navbar a:hover {
-  background-color: #FFFE30;
-  color: black;
+  color: #662D91;
 }
 #navbar a.pic1, a.pic2 {
   background-color: #333;
