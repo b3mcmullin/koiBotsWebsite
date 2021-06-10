@@ -30,29 +30,32 @@ img {
   margin: 0vw;
   padding: 0vw;
   overflow: hidden;
-  background: url(Pics/RoboticsTeam-1.jpg);
+  background-image: url(Pics/RoboticsTeam-1.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
-  align-items: center;
-  justify-content: center;
   color: #FFF;
   background-opacity: 50%;
 }
+#navbar h1 {
+  align-items: center;
+  justify-content: center;
+}
 #navbar a {
   float: right;
-  display: inline;
+  display: inline-block;
   color: #FFF;
-  text-align: center;
+  text-align: right;
   padding: 1vw 2vw;
   text-decoration: none;
   font-size: 2vw;
   font-family: Montserrat;
 }
+#navbar img {
+  opacity: 50%;
+}
 #navbar a img.a {
-  position: absolute;
-  top: 0;
-  right: 0;
+  float: left;
   width: 9vw;
   height: 9vw;
   float: right;
